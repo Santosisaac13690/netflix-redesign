@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './navfooter.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { fa-solid fa-angle-down } from "@fortawesome/react-fontawesome";
 
 function Nav() {
     const [state, setState] = React.useState({ showSubMenu: false });
@@ -18,7 +20,7 @@ function Nav() {
     <div>
         <nav>
           <Link className="title" to="/">NETFLIX</Link>
-          <button onClick={handleClick}>Browse </button>
+          <button aria-label="dropdown" onClick={handleClick}>Browse <FontAwesomeIcon icon="fa-solid fa-angle-down" /></button>
           <ul className="sub-menu {state.showSubMenu ? 'is-active' : ''}">
             <li><Link to="/" className="hover">Home</Link></li>
             <li><Link to="/tvshows" className="hover">TV Shows</Link></li>
@@ -26,10 +28,6 @@ function Nav() {
             <li><Link to="/newandpopular" className="hover">New & Popular</Link></li>
             <li><Link to="/mylist" className="hover">My List</Link></li>
           </ul>
-
-          <div>
-
-          </div>
         </nav>
     </div>
   )
