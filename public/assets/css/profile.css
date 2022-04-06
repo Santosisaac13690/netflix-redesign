@@ -1,0 +1,37 @@
+.profilecontainer {
+    display: flex;
+    background-color: black;
+};
+
+.profilecontainer > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.accounts {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.accounts h1 {
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    
+}
