@@ -14,7 +14,12 @@ function App() {
             <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
-     </div>
+
+      <p>test</p>
+     <Row title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/>
+     <Row title="Trending Now" fetchURL={requests.fetchTrending}/>
+
+    </div>
   );
 }
 
