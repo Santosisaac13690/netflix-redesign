@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../partials/_login.scss";
 
 const Login = () => {
+
   return (
     <>
       <div className="netlfix-container">
@@ -16,7 +17,9 @@ const Login = () => {
                 <option>English</option>
                 <option>Espanol</option>
               </select>
-              <Link to="/popuplogin"><button className="signIn-btn">Sign In</button></Link>
+              <Link to="/popuplogin">
+                <button className="signIn-btn">Sign In</button>
+              </Link>
             </div>
           </div>
           <div class="header-content">
@@ -44,8 +47,9 @@ const Login = () => {
             </div>
             <div class="first-animation">
               <video height="200px" width="500px" autoplay muted loop>
-                <source src="video-tv.m4v" type="video/mp4" />
+                <source src="video-tv.mp4" type="video/mp4" />
               </video>
+              {/* <iframe width="500px" height="200px" src="https://www.youtube.com/embed/yxfCbV21ck8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
               <img src="tv.png" alt="tv" />
             </div>
           </div>
@@ -85,7 +89,7 @@ const Login = () => {
             <div class="third-animation">
               <img src="netflix-device-pile.png" alt="devicepile" />
               <video height="200px" width="330px" autoplay muted loop>
-                <source src="assets/video-devices.m4v" type="video/mp4" />
+                <source src="video-devices.mp4" type="video/mp4" />
               </video>
             </div>
           </div>

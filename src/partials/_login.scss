@@ -16,19 +16,19 @@
 
 h1 {
   font-size: 3.3rem;
-//   white-space: nowrap;
+  //   white-space: nowrap;
 }
 
 h3 {
   font-size: 1.625rem;
 }
 
-input {
-  height: 3.5rem;
-  width: 70%;
-  font-size: 1rem;
-  text-indent: 10px;
-}
+// input {
+//   height: 3.5rem;
+//   width: 70%;
+//   font-size: 1rem;
+//   text-indent: 10px;
+// }
 
 button {
   height: 3.8rem;
@@ -43,16 +43,16 @@ button {
 }
 
 .signIn-btn {
-    height: 2.5rem;
-    padding: 0 20px;
-    width: 100%;
-    background-color: #e50914;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    font-size: 1rem;
-    text-align: center;
-    cursor: pointer;
+  height: 2.5rem;
+  padding: 0 20px;
+  width: 100%;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 header {
@@ -131,6 +131,13 @@ header {
   align-items: center;
   margin-top: 1.5rem;
   width: 45rem;
+
+  input {
+    height: 3.5rem;
+    width: 70%;
+    font-size: 1rem;
+    text-indent: 10px;
+  }
 }
 
 .first {
@@ -163,7 +170,7 @@ header {
 .first-animation > video {
   position: absolute;
   top: 21%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .second {
@@ -297,7 +304,7 @@ header {
   position: absolute;
   top: 10%;
   left: 20%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .fourth {
@@ -404,32 +411,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  margin: 4rem 0 4rem 4rem;
-  width: 100vw;
-}
-
-.contact-us {
-  margin-bottom: 2rem;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-}
-
-.links > div {
-  display: flex;
-  flex-direction: column;
-  margin-right: 15vw;
-}
-
-.links > div > a {
-  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 990px) {
@@ -588,10 +569,6 @@ footer {
 
   .faq-body > h3 {
     width: 31rem;
-  }
-
-  .links > div > a {
-    font-size: 0.7rem;
   }
 }
 
@@ -774,13 +751,5 @@ footer {
 
   .faq-body > h3 {
     width: 26rem;
-  }
-
-  .links {
-    display: block;
-  }
-
-  .links > div > a {
-    font-size: 0.7rem;
   }
 }
