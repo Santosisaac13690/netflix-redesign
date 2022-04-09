@@ -22,7 +22,7 @@ function Row({ title, fetchURL }) {
   }, [fetchURL]);
 
   return (
-    <div>
+    <div className="movies">
       {/*titles*/}
       <h2>{title}</h2>
 
