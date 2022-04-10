@@ -6,6 +6,7 @@ import TVshows from './components/TVshows';
 import Newandpopular from './components/Newandpopular';
 import Movies from './components/Movies';
 import Mylist from './components/Mylist';
+import Profile from './components/profile';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route path="/tvshows" element={<TVshows />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/newandpopular" element={<Newandpopular />} />
-            <Route path="/mylist" element={<Mylist />} />
+            <Route path="/mylist" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,6 +1,20 @@
 import React from 'react' 
 import { Link } from "react-router-dom";
-import "./css/profile.css";
+import "./profile.css";
+// import user1 from './user1.png';
+// import user2 from './images/user2.png';
+// import user3 from './images/user3.png';
+
+
+// const userimage1 = {
+//   backgroundImage: `url(${user1})`
+// }
+// const userimage2 = {
+//   backgroundImage: `url(${user2})`
+// }
+// const userimage3 = {
+//   backgroundImage: `url(${user3})`
+// };
 
 const Profile = () => {
   return (
@@ -13,16 +27,20 @@ const Profile = () => {
 
         <div className="WhoIsWatching"/>
         <div className="logo-section">
-            <a href="#"><img src="123.png" alt ="logo"/></a>
+            <img src="./assets/images/123.png" alt ="logo"/>
         </div>
         
         <div className="main-div">
             <h1>Who's Watching?</h1>
             <div className="memberDiv">
-                <Link to="App"><button className="btn"><span>person1</span></button></Link>
-                <Link to="App"><button className="btn"><span>person2</span></button></Link>
-                <Link to="App"><button className="btn"><span>person3</span></button></Link>
+                <Link to="/"><img src="./assets/images/user1.png"/></Link>
+
+                <Link to="/"><img src="./assets/images/user2.png"/></Link>
+
+                <Link to="/"><img src="./assets/images/user3.png"/></Link>
+
                 <button className="addIcon"><i className="fas fa-plus-circle"></i><span>Add Profile</span></button>
+
             </div>
             <button className="manageProfile">manage Profile</button>
         </div>
