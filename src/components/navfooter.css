@@ -1,0 +1,152 @@
+/* Nav & footer css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+    background-color: rgb(20, 20, 20);
+}
+
+/* Nav css */
+
+.nav-ctn {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li Link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-transform: lowercase;
+}
+
+nav Link {
+    text-decoration: none;
+}
+
+.title {
+    color: #e50914;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+nav a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.submenu {
+    display: none;
+}
+
+.is-active {
+    display: block;
+}
+
+.hover:hover {
+    opacity: 70%;
+}
+
+.browse-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0px 20px;
+}
+
+.browse-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    padding: 5px 10px;
+    background-color: #564d4d;
+    color: white;
+    width: 120px;
+    border: 2px solid white;
+}
+
+.icons {
+    padding: 0px 10px;
+}
+
+/* Footer css */
+
+.socials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.help-links{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.help-links ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.help-links ul li a{
+    color: 	#564d4d;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.help-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #564d4d;
+    text-align: center;
+    padding: 10px 0px;
+}
