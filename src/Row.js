@@ -9,14 +9,16 @@ function Row({ title, fetchURL }) {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await instance.get(fetchURL);
+        //combines the baseURL from axios.js with the fetchURL value from App.js
+      const request = await instance.get(fetchURL); 
       console.log(request);
+      //sets movies to whatever data is in the JSON file
       setMovies(request.data.results);
       return request;
     }
     fetchData();
 
-    //fetchURL is a dependacy, run again on change
+    //fetchURL is a dependacy, runs again on change
   }, [fetchURL]);
 
   return (
