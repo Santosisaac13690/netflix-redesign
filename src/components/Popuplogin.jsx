@@ -6,7 +6,7 @@ const Popuplogin = () => {
   return (
     <div className="modalBackground">
       <div className="neflix-logo-1">
-        <Link className="netflix-logo" to="/login">
+        <Link className="netflix-logo" to="/">
           <img src="netflixLogo.png" alt="Netflix" />
         </Link>
       </div>
@@ -15,7 +15,7 @@ const Popuplogin = () => {
           <p>X</p>
         </div>
         <div className="modalTitle">
-          <h2> Sign In </h2>
+          <h2 className="modal-sign-in"> Sign In </h2>
         </div>
         <form>
           <div className="modalBody">
