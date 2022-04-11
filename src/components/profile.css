@@ -11,26 +11,31 @@ html {
     font-size: 62.5%;
 }
 
-.WhoIsWatching {
+/* .WhoIsWatching {
     width: 100vw;
     min-height: 100vh;
     background-color: #141414;
-}
+} */
 
 .logo-section {
-    width: 90vw;
+    width: 1vw;
     margin:auto;
-    height: 6rem;
+    height: 5rem;
     background-color: rgb(20,20,20);
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+    /* justify-content: flex-start; */
+    display: inline-flex;
+    font-size: 100px;
+    margin-left: 50px;
+    
 }
-.logo-section a img{
+
+.logo-section .img{
     width: 10rem;
     height: 4.5rem;
     cursor: pointer;
+    display: flex;
+    justify-content: left;
 }
 
 .main-div {
@@ -74,6 +79,7 @@ html {
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 /* .memberDiv .btn:nth-child(1){
@@ -101,6 +107,7 @@ html {
     left: 0;
     color:ivory;
     font-size: 1.5rem;
+    
 }
 
 .fa-plus-circle {
@@ -133,7 +140,29 @@ html {
     cursor: pointer;
 }
 
+.memberDiv:hover{
+
+}
+
 .manageProfile:hover {
     border: 1px solid white;
     color: white;
+}
+
+/* .logo-section{
+    display: flex;
+    justify-content: flex-start;
+    ;
+} */
+
+.memberDiv {
+    padding: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.logo-section .logo {
+    display: flex;
+    
 }
