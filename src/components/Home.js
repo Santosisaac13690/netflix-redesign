@@ -12,6 +12,7 @@ function Home() {
         <Row title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/>
         <Row title="Trending Now" fetchURL={requests.fetchTrending}/>
         <Row title="Funny Movies" fetchURL={requests.fetchComedyMovies}/>
+        <Row title="TV Shows" fetchURL={requests.fetchTVShows}/>
 
         <Footer />
 
