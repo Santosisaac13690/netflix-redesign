@@ -1,0 +1,38 @@
+.movies {
+    background-color: #141414;
+}
+
+.movies h2 {
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding:20px;
+    background-color: #141414;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_poster_img{
+    object-fit: contain;
+    width: 100%;
+    max-height: 200px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.row_poster_img:hover{
+    transform: scale(1.08);
+
+}
+
+h2{
+    font-size: 1.4vw;
+}
