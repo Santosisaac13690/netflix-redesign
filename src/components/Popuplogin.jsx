@@ -25,7 +25,7 @@ const Popuplogin = () => {
             <input type="text" id="email" placeholder="Password" required="required"/>
           </div>
           <div className="login-button">
-            <button type="submit"> Sign In </button>
+            <Link to="/home"><button type="submit"> Sign In </button></Link>
           </div>
         </form>
         <div className="register-bar">
