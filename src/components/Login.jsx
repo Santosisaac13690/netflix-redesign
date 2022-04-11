@@ -46,10 +46,29 @@ const Login = () => {
               </h3>
             </div>
             <div class="first-animation">
-              <video height="200px" width="500px" autoplay muted loop>
-                <source src="video-tv.mp4" type="video/mp4" />
-              </video>
-              {/* <iframe width="500px" height="200px" src="https://www.youtube.com/embed/yxfCbV21ck8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: `
+                  <video class="video1" height="340px" width="430px"
+                  loop
+                  muted
+                  autoplay
+                  playsinline
+                >
+                <source src="video-tv-0819.m4v" type="video/mp4" />
+                </video>`,
+                }}
+              />
+              {/* <video
+                height="200px"
+                width="500px"
+                autoPlay={true}
+                playsInline
+                muted=""
+                loop
+              >
+                <source src="video-tv-0819.m4v" type="video/mp4" />
+              </video> */}
               <img src="tv.png" alt="tv" />
             </div>
           </div>
@@ -88,9 +107,22 @@ const Login = () => {
             </div>
             <div class="third-animation">
               <img src="netflix-device-pile.png" alt="devicepile" />
-              <video height="200px" width="330px" autoplay muted loop>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: `
+                  <video class="video2" height="200px" width="330px"
+                  loop
+                  muted
+                  autoplay
+                  playsinline
+                >
                 <source src="video-devices.mp4" type="video/mp4" />
-              </video>
+                </video>`,
+                }}
+              />
+              {/* <video height="200px" width="330px" autoplay muted loop>
+                <source src="video-devices.mp4" type="video/mp4" />
+              </video> */}
             </div>
           </div>
 
