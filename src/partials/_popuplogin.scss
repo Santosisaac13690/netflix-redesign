@@ -1,0 +1,248 @@
+.modalBackground {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/netflix-background.jpeg");
+  //   background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  line-height: 1.5;
+  //   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix-logo {
+  margin-left: 1rem;
+  // margin-bottom: 1rem;
+}
+
+.netflix-logo > img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 180px;
+  height: 60px;
+}
+
+.modalContainer {
+  width: 450px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.modalContainer .modalTitle {
+  display: inline-block;
+  //   text-align: center;
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 22px;
+  color: white;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .modalBody {
+  //   flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 20px 0 15px 0px;
+
+  ::placeholder {
+    color: #8c8c8c;
+    font-size: 16px;
+    // float: left;
+  }
+
+  input {
+    // padding: 15px 130px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    text-indent: 20px;
+    width: 80%;
+    background-color: #333;
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+}
+
+.modalContainer .modalBody2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+
+  ::placeholder {
+    color: #8c8c8c;
+    font-size: 16px;
+    // padding: 0 15px;
+  }
+
+  input {
+    height: 3.5rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    text-indent: 20px;
+    width: 80%;
+    background-color: #333;
+  }
+}
+
+.modalContainer .login-button {
+  //   flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.login-button button {
+    margin-top: 15px;
+  font-size: 17px;
+  border-color: #3b4354;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.register-bar {
+  font-size: 16px;
+  //   display: flex;
+  //   justify-content: space-between;
+  margin: -10px 13px;
+  text-transform: none;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+
+  label {
+    color: #7f858a;
+  }
+
+  input {
+    cursor: pointer;
+    color: #7f858a;
+    margin: 0 4px 0 30px;
+  }
+
+  .to-register {
+    float: right;
+    margin-right: 30px;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.social-media-login {
+  //   margin-top: 40px;
+  //   text-align: center;
+  text-transform: none;
+
+  .login-tip {
+    font-size: 14px;
+    line-height: 14px;
+    z-index: 2;
+    color: #c0c5c8;
+  }
+
+  .third-party-icon {
+    margin-top: 24px;
+  }
+
+  .third-party-icon img {
+    height: 20px;
+    width: 20px;
+    margin: 20px 10px 0 45px;
+  }
+
+  .fbBtnText {
+    color: #737373;
+  }
+
+  .login-signup-now {
+    margin: 10px 10px 0 45px;
+    font-size: 16px;
+    font-weight: 500;
+
+    a {
+        color: #fff;
+    }
+  }
+
+  .login-signup-now span {
+    color: #737373;
+  }
+
+  .recaptcha-terms-of-use {
+      width: 80%;
+      margin: 10px 0 0 45px;
+      color: #737373;
+      font-size: 13px;
+
+      .recaptcha-terms-of-use-link-button {
+        background-color: transparent;
+        border: none;
+        color: #0071eb;
+        cursor: pointer;
+        display: inline;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 0;
+      }
+  }
+}
+
+// .third-party-login {
+//     display: flex;
+//     justify-content: center;
+//     font-size: 0;
+// }
+
+.third-party-login .third-party-item {
+  margin-right: 0 !important;
+}
+
+.Modal .login-btn {
+  //   width: 200px;
+  //   height: 20px;
+  border: none;
+  //   border-radius: 6px;
+  //   background-color: cornflowerblue;
+  color: #fff;
+  cursor: pointer;
+}

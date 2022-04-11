@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue';
-    background-color: rgb(20, 20, 20);
+    /* background-color: rgb(20, 20, 20); */
 }
 
 /* Nav css */
@@ -105,8 +105,13 @@ nav a {
 
 /* Footer css */
 
+footer {
+    background-color: rgb(20, 20, 20);
+}
+
 .socials {
-    margin-top: 40px;
+    /* margin-top: 20px; */
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
