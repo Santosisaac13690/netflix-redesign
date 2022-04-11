@@ -5,6 +5,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(20,20,20);
+
 }
 
 html {
@@ -140,20 +142,12 @@ html {
     cursor: pointer;
 }
 
-.memberDiv:hover{
-
-}
 
 .manageProfile:hover {
     border: 1px solid white;
     color: white;
 }
 
-/* .logo-section{
-    display: flex;
-    justify-content: flex-start;
-    ;
-} */
 
 .memberDiv {
     padding: 10px;

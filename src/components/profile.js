@@ -1,9 +1,7 @@
 import React from 'react' 
 import { Link } from "react-router-dom";
 import "./profile.css";
-// import user1 from './user1.png';
-// import user2 from './images/user2.png';
-// import user3 from './images/user3.png';
+
 
 
 // const userimage1 = {
@@ -33,11 +31,11 @@ const Profile = () => {
         <div className="main-div">
             <h1>Who's Watching?</h1>
             <div className="memberDiv">
-                <Link to="/"><img src="./assets/images/user1.png"/></Link>
+                <Link to="/home"><img src="./assets/images/user1.png"/></Link>
 
-                <Link to="/"><img src="./assets/images/user2.png"/></Link>
+                <Link to="/home"><img src="./assets/images/user2.png"/></Link>
 
-                <Link to="/"><img src="./assets/images/user3.png"/></Link>
+                <Link to="/home"><img src="./assets/images/user3.png"/></Link>
 
                 <button className="addIcon"><i className="fas fa-plus-circle"></i><span>Add Profile</span></button>
 
