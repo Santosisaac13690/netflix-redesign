@@ -5,7 +5,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(20,20,20);
+    
 
 }
 
@@ -159,4 +159,9 @@ html {
 .logo-section .logo {
     display: flex;
     
+}
+
+.WhoIsWatching{
+    background-color: rgb(20,20,20);
+    height: 100vh;
 }
