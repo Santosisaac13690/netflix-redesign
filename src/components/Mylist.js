@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav'
+import Footer from './Footer';
 
 function Mylist() {
   return (
-    <div>Mylist</div>
+    <div>
+      <Nav/>
+
+      <Footer/>
+    </div>
   )
 }
 
