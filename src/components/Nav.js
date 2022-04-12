@@ -25,7 +25,7 @@ export default class Nav extends Component  {
         return (
             <div className='nav-ctn'>
                 <nav>
-                    <Link className="title" to="/">NETFLIX</Link>
+                    <Link className="title" to="/home"><img src="netflixLogo.png" alt="Netflix" /></Link>
                     <div className='browse-flex'>
                         <div className='browse-btn'>
                             <a aria-label="dropdown" onClick={Handlechange} >Browse</a>

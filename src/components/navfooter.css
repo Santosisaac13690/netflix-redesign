@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue';
+    /* background-color: rgb(20, 20, 20); */
 }
 
 /* Nav css */
@@ -11,6 +12,11 @@
 .nav-ctn {
     position: sticky;
     top: 0;
+}
+
+.nav-ctn img {
+    width: 150px;
+    height: 50px;
 }
 
 nav {
@@ -104,8 +110,13 @@ nav a {
 
 /* Footer css */
 
+footer {
+    background-color: rgb(20, 20, 20);
+}
+
 .socials {
-    margin-top: 40px;
+    /* margin-top: 20px; */
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
