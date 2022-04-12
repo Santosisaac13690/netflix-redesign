@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <>
       <div className="netlfix-container">
-        <header>
+        <header className="login-header">
           <div class="header-top">
             <div class="left">
               <img src="netflixLogo.png" alt="Netflix" />

@@ -20,6 +20,7 @@
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3em;
+    text-shadow: 2px 2px 5px black;
 }
 
 .banner-desc{
@@ -29,6 +30,7 @@
     font-size: 0.8rem;
     max-width: 360px;
     height: 80px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .banner-button{
