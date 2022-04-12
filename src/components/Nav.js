@@ -25,7 +25,7 @@ export default class Nav extends Component  {
         return (
             <div className='nav-ctn'>
                 <nav>
-                    <Link className="title" to="/">NETFLIX</Link>
+                    <Link className="title" to="/home"><img src="netflixLogo.png" alt="Netflix" /></Link>
                     <div className='browse-flex'>
                         <div className='browse-btn'>
                             <a aria-label="dropdown" onClick={Handlechange} >Browse</a>
@@ -34,7 +34,7 @@ export default class Nav extends Component  {
 
                         {submenu && (
                         <ul>
-                        <li><Link to="/" className="hover">Home</Link></li>
+                        <li><Link to="/home" className="hover">Home</Link></li>
                         <li><Link to="/tvshows" className="hover">TV Shows</Link></li>
                         <li><Link to="/movies" className="hover">Movies</Link></li>
                         <li><Link to="/newandpopular" className="hover">New & Popular</Link></li>
