@@ -7,6 +7,7 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -39,7 +40,7 @@ function Footer() {
               <a href="https://www.netflix.com/">Audio Description</a>
             </li>
             <li>
-              <a href="https://www.netflix.com/">Help Center</a>
+              <Link to="/contact">Help Center</Link>
             </li>
             <li>
               <a href="https://www.netflix.com/">Gift Cards</a>

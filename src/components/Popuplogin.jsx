@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../partials/_popuplogin.scss";
+import Footer from "./Footer";
 
 const Popuplogin = () => {
   return (
@@ -56,6 +57,7 @@ const Popuplogin = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
