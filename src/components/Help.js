@@ -1,19 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./help.css";
-import netflixarrow from "./netflixarrow.svg";
-import netflixhelp from "./netflixhelp.jpeg";
-import searchnet from "./searchnet.svg";
-
-const userimage1 = {
-  backgroundImage: `url(${netflixarrow})`,
-};
-const userimage2 = {
-  backgroundImage: `url(${netflixhelp})`,
-};
-const userimage3 = {
-  backgroundImage: `url(${searchnet})`,
-};
 
 const Contact = () => {
   return (
@@ -288,6 +275,7 @@ const Contact = () => {
                         data-beacon="action=UpdatePasswdLink"
                         target="_blank"
                         rel="noopener"
+                        rel="noreferrer"
                       >
                         Reset password
                         <img
@@ -303,6 +291,7 @@ const Contact = () => {
                         data-beacon="action=UpdateEmailLink"
                         target="_blank"
                         rel="noopener"
+                        rel="noreferrer"
                       >
                         Update email
                       </a>
@@ -314,6 +303,7 @@ const Contact = () => {
                         data-beacon="action=SigninHelpLink"
                         target="_blank"
                         rel="noopener"
+                        rel="noreferrer"
                       >
                         Get help signing in
                       </a>
@@ -325,6 +315,7 @@ const Contact = () => {
                         data-beacon="action=UpdatePaymentLink"
                         target="_blank"
                         rel="noopener"
+                        rel="noreferrer"
                       >
                         Update payment method
                       </a>

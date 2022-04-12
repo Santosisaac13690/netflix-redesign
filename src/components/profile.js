@@ -17,15 +17,15 @@ const Profile = () => {
           <h1>Who's Watching?</h1>
           <div className="memberDiv">
             <Link to="/home">
-              <img src="./assets/images/user1.png" />
+              <img src="./assets/images/user1.png" alt="user1"/>
             </Link>
 
             <Link to="/home">
-              <img src="./assets/images/user2.png" />
+              <img src="./assets/images/user2.png" alt="user2"/>
             </Link>
 
             <Link to="/home">
-              <img src="./assets/images/user3.png" />
+              <img src="./assets/images/user3.png" alt="user3"/>
             </Link>
 
             <button className="addIcon">
