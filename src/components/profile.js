@@ -2,23 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./profile.css";
 
-// const userimage1 = {
-//   backgroundImage: `url(${user1})`
-// }
-// const userimage2 = {
-//   backgroundImage: `url(${user2})`
-// }
-// const userimage3 = {
-//   backgroundImage: `url(${user3})`
-// };
+
 
 const Profile = () => {
   return (
     <>
       <div className="WhoIsWatching">
         <title>Document</title>
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> */}
-        {/* <link rel="stylesheet" href="profile.css"/> */}
         <div className="logo-section">
           <img src="./assets/images/123.png" alt="logo" />
         </div>
@@ -27,15 +17,15 @@ const Profile = () => {
           <h1>Who's Watching?</h1>
           <div className="memberDiv">
             <Link to="/home">
-              <img src="./assets/images/user1.png" />
+              <img src="./assets/images/user1.png" alt="user1"/>
             </Link>
 
             <Link to="/home">
-              <img src="./assets/images/user2.png" />
+              <img src="./assets/images/user2.png" alt="user2"/>
             </Link>
 
             <Link to="/home">
-              <img src="./assets/images/user3.png" />
+              <img src="./assets/images/user3.png" alt="user3"/>
             </Link>
 
             <button className="addIcon">

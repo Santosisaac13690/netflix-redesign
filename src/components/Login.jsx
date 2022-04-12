@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../partials/_login.scss";
-// import "Footer";
+import Footer from "./Footer";
 
 const Login = () => {
 
   return (
     <>
       <div className="netlfix-container">
-        <header>
+        <header className="login-header">
           <div class="header-top">
             <div class="left">
               <img src="netflixLogo.png" alt="Netflix" />
@@ -262,7 +262,7 @@ const Login = () => {
             </div>
           </div>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
