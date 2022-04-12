@@ -2,15 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./profile.css";
 
-// const userimage1 = {
-//   backgroundImage: `url(${user1})`
-// }
-// const userimage2 = {
-//   backgroundImage: `url(${user2})`
-// }
-// const userimage3 = {
-//   backgroundImage: `url(${user3})`
-// };
+
 
 const Profile = () => {
   return (
