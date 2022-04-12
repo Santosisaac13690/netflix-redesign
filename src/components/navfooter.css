@@ -47,7 +47,6 @@ nav ul li Link{
 nav ul li {
     display: flex;
     flex-direction: column;
-    text-transform: lowercase;
 }
 
 nav Link {
