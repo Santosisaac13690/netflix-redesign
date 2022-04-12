@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../partials/_login.scss";
-// import "Footer";
+import Footer from "./Footer";
 
 const Login = () => {
 
@@ -262,7 +262,7 @@ const Login = () => {
             </div>
           </div>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

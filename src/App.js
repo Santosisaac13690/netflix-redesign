@@ -8,6 +8,7 @@ import Movies from "./components/Movies";
 import Mylist from "./components/Mylist";
 import Login from './components/Login';
 import PopUpLogin from './components/Popuplogin';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/movies" element={<Movies />} />
           <Route path="/newandpopular" element={<Newandpopular />} />
           <Route path="/mylist" element={<Mylist />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
