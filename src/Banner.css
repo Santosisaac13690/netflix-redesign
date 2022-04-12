@@ -12,7 +12,7 @@
 
 .banner-info{
     margin-left: 30px;
-    padding-top: 140px;
+    padding-top: 100px;
     height: 190px;
 }
 
@@ -20,6 +20,10 @@
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3em;
+}
+
+.banner-info .banner-title{
+    margin-right: 500px;
 }
 
 .banner-desc{
@@ -52,5 +56,9 @@
     transition: all 0.2s;
 }
 
-
+/* @media only screen and (max-width: 685px) {
+    .banner-info .banner-title{
+        margin-right: 500px;
+    }
+} */
 
