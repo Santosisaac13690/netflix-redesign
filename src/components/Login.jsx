@@ -10,9 +10,9 @@ const Login = () => {
   return (
     <>
       <div className="netlfix-container">
-        <header>
-          <div className="header-top">
-            <div className="left">
+        <header className="login-header">
+          <div class="header-top">
+            <div class="left">
               <img src="netflixLogo.png" alt="Netflix" />
             </div>
             <div className="right">

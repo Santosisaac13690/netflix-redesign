@@ -8,18 +8,24 @@
     color: white;
     object-fit: contain;
     height: 448px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner-info{
-    margin-left: 30px;
-    padding-top: 100px;
+    /* margin-left: 30px; */
+    margin: 0 0 0 50px;
+    padding-top: 140px;
     height: 190px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner-title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3em;
+    text-shadow: 2px 2px 5px black;
 }
 
 .banner-info .banner-title{
@@ -33,6 +39,7 @@
     font-size: 0.8rem;
     max-width: 360px;
     height: 80px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .banner-button{
@@ -55,10 +62,3 @@
     background-color: #e6e6e6;
     transition: all 0.2s;
 }
-
-/* @media only screen and (max-width: 685px) {
-    .banner-info .banner-title{
-        margin-right: 500px;
-    }
-} */
-
