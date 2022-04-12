@@ -28,6 +28,10 @@
     text-shadow: 2px 2px 5px black;
 }
 
+.banner-info .banner-title{
+    margin-right: 200px;
+}
+
 .banner-desc{
     width: 45rem;
     line-height: 1.3;
