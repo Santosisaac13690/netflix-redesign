@@ -2,7 +2,7 @@
 
 Netflix redesign project given by Road to Hire
 
-![Monday project managament created](./mondayProject.png)
+![Monday project managament created](https://cdn.discordapp.com/attachments/936022093676544000/963447960950157343/mondayProject.png)
 
 ## Contributors
 * Isaac Santos - Developer  - [Github](https://github.com/Santosisaac13690)
