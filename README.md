@@ -1,3 +1,17 @@
+## Netflix Clone Redesign Road to Hire - Group 3
+
+Netflix redesign project given by Road to Hire
+
+![Monday project managament created](./mondayProject.png)
+
+## Contributors
+* Isaac Santos - Developer  - [Github](https://github.com/Santosisaac13690)
+* Sam Rivas Ramirez - Developer - [Github](https://github.com/samueljr3)
+* Van Rlan  - Developer - [Github](https://github.com/VanRlan)
+* Puran Bhujel - Developer - [Github](https://github.com/Puranbhujel11)
+* Martin Lazore - Developer - [Github](https://github.com/mlazore)
+* Jackeline Mendoza - Developer - [Github](https://github.com/jackym0408)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

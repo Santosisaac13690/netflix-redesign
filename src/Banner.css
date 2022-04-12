@@ -8,12 +8,17 @@
     color: white;
     object-fit: contain;
     height: 448px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner-info{
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    margin: 0 0 0 50px;
     padding-top: 140px;
     height: 190px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .banner-title{
@@ -53,6 +58,3 @@
     background-color: #e6e6e6;
     transition: all 0.2s;
 }
-
-
-
